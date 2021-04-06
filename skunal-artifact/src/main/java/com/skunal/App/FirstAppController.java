@@ -17,7 +17,7 @@ public class FirstAppController {
 	@RequestMapping("/page")
 	public ModelAndView index () {
 		ModelAndView mv  = new ModelAndView();
-		
+		System.out.println("this is the page");
 		 mv.setViewName("index");
 		 
 		  return mv;
